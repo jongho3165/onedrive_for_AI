@@ -1,5 +1,7 @@
 OneDrive 관리 매니저
 
+# 총 비용은 제 사용량 기준 S3 1.83 달러, bedrock 1.75 달러 청구 되었고 사용량에 따라 다를 수 있습니다.
+
 1. Tech Stacks
 	- Language: Python 3.13
 	- AWS Cloud: Lambda, S3, EventBridge, IAM
@@ -17,9 +19,10 @@ OneDrive 관리 매니저
 	- Slack 연동
 	
 3. 사용 방법
-	1. 슬랙에서 앱 추가
-	2. LLM을 사용할 채널 생성, 추가 된 앱 초대
-	3. 초대한 앱에 태그 후 질문
+	1. local_ai.py 파일 실행(Ex. powershell 에서 실행 : python3.13.exe .\gemma_rag.py)
+	2. 슬랙에서 앱 추가
+	3. LLM을 사용할 채널 생성, 추가 된 앱 초대
+	4. 초대한 앱에 태그 후 질문
 	
 	
 2. 사전 준비 - Azure Infra 구성
