@@ -252,7 +252,7 @@ def core_rag_pipeline(user_question):
     print(f"\n[DATA DEBUG] S3 Vectors에서 인출해온 실시간 문맥 조각:\n{context_str}====================================")
 	
 	# 프롬프트
-    rag_prompt = f"""프롬프트에 넣을 내용
+    rag_prompt = f"""프롬프트에 넣을 내용입니다
 
 [제공된 내부 지식 문맥]:
 {context_str}
