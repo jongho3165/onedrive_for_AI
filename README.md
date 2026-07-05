@@ -1,10 +1,13 @@
 OneDrive 관리 매니저
 
 (현재 hwp 파일 파싱 버그 수정 중)
+
 총 비용은 제 사용량 기준(소스 원드라이브 디렉토리 크기 532mb) S3 1.83 달러, bedrock 1.75 달러 청구 되었고 사용량에 따라 다를 수 있습니다.
+
 env 파일을 .env 로 바꾸고 변수 설정한 뒤 사용
+
 필요 파이썬 라이브러리 : python-dotenv, slack-bolt, boto3, requests
-pip install python-dotenv
+
 
 1. Tech Stacks
 	- Language: Python 3.13
